@@ -17,3 +17,7 @@ git clone -b luci https://github.com/pexcn/openwrt-chinadns-ng.git package/luci-
 cd openwrt
 wget https://raw.githubusercontent.com/nicholas-opensource/OpenWrt-Autobuild/main/SCRIPTS/03_convert_translation.sh
 bash 03_convert_translation.sh
+
+cd ..
+tar -jxvf immortalwrt-toolchain-mvebu-cortexa53_gcc-8.4.0_musl.Linux-x86_64.tar.bz2
+cp -r ./immortalwrt-toolchain-mvebu-cortexa53_gcc-8.4.0_musl.Linux-x86_64/toolchain-aarch64_cortex-a53_gcc-8.4.0_musl ./openwrt/staging_dir/toolchain-aarch64_cortex-a53_gcc-8.4.0_musl
