@@ -20,6 +20,6 @@ bash 03_convert_translation.sh
 wget https://raw.githubusercontent.com/nicholas-opensource/OpenWrt-Autobuild/main/SCRIPTS/04_remove_upx.sh
 bash 04_remove_upx.sh
 
-cd ..
-tar -jxvf immortalwrt-toolchain-mvebu-cortexa53_gcc-8.4.0_musl.Linux-x86_64.tar.bz2
-cp -r ./immortalwrt-toolchain-mvebu-cortexa53_gcc-8.4.0_musl.Linux-x86_64/toolchain-aarch64_cortex-a53_gcc-8.4.0_musl ./openwrt/staging_dir/toolchain-aarch64_cortex-a53_gcc-8.4.0_musl
+# cd ..
+# tar -jxvf immortalwrt-toolchain-mvebu-cortexa53_gcc-8.4.0_musl.Linux-x86_64.tar.bz2
+# cp -r ./immortalwrt-toolchain-mvebu-cortexa53_gcc-8.4.0_musl.Linux-x86_64/toolchain-aarch64_cortex-a53_gcc-8.4.0_musl ./openwrt/staging_dir/toolchain-aarch64_cortex-a53_gcc-8.4.0_musl
